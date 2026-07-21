@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My APOD Site</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="src/daily.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <h1 class="logo">My APOD</h1>
+    <nav class="nav-menu">
+      <a href="index.html" class="nav-item active"><i data-lucide="newspaper"></i><span>Home</span></a>
+      <a href="search.html" class="nav-item active"><i data-lucide="search"></i><span>Search</span></a>
+      <a href="favorite.html" class="nav-item active"><i data-lucide="star"></i><span>Favorite</span></a>
+      <a href="daily.html" class="nav-item active"><i data-lucide="calendar-1"></i><span style="color: aquamarine;">Daily</span></a>
+    </nav>
+  </aside>
+  <div class="container-principal">
+        <main class="feed">
+            <article class="post">
+                <header class="post-header">
+                    <div class="user-info">
+                        <div>
+                            <span class="username">NASA APOD</span>
+                            <span class="post-date" id="date">Loading...</span>
+                        </div>
+                    </div>
+                </header>
+                <div class="post-image">
+                    <img src="" alt="" id="image">
+                </div>
+                <footer class="post-footer">
+                    <div class="actions">
+                        <div></div>
+                        <div class="right-actions">
+                            <button class="icon-btn"><i data-lucide="heart" class="fav"></i></button>
+                        </div>
+                    </div>
+                    <h3 class="post-title" id="title"></h3>
+                    <p class="caption">
+                        <span id="description"></span>
+                    </p>
+                </footer>
+            </article>
+        </main>
+  </div>
+  <script type="module" src="/src/daily.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
