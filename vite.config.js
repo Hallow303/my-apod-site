@@ -15,5 +15,3 @@ export default defineConfig(({ command }) => ({
     },
   },
 }));
-
-// Tomara que funcione pls pls pls

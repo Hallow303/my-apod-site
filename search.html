@@ -17,6 +17,41 @@
       <a href="daily.html" class="nav-item active"><i data-lucide="calendar-1"></i><span>Daily</span></a>
     </nav>
   </aside>
+  <div class="container-principal">
+      <main class="feed">
+          <div class="search-bar">
+            <input lang="en" type="date" id="dateInput" min="1995-06-16">
+            <button id="searchBtn">Search</button>
+          </div>
+        <article class="post">
+            <header class="post-header">
+                <div class="user-info">
+                    <div>
+                        <span class="username">NASA APOD</span>
+                        <br>
+                        <span class="post-date" id="date">Loading...</span>
+                    </div>
+                </div>
+            </header>
+            <div class="post-image">
+                <img src="" alt="" id="image">
+            </div>
+            <footer class="post-footer">
+                <div class="actions">
+                    <div></div>
+                    <div class="right-actions">
+                        <button class="icon-btn"><i data-lucide="heart" class="fav"></i></button>
+                    </div>
+                </div>
+                <h3 class="post-title" id="title"></h3>
+                <p class="caption">
+                    <span id="description"></span>
+                </p>
+            </footer>
+        </article>
+    </main>
+  </div>
   <script type="module" src="/src/main.js"></script>
+  <script type="module" src="/src/search.js"></script>
 </body>
 </html>

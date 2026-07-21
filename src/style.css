@@ -25,7 +25,7 @@ body{
     padding: 20px 12px;
     display: flex;
     flex-direction: column;
-    position: f;
+    position: fixed;
     height: 100vh;
 }
 
@@ -63,7 +63,7 @@ body{
     display: flex;
     justify-content: center;
     padding: 30px 20px;
-    width: calc(100% - 245);
+    width: calc(100% - 245px);
 }
 
 .feed{
@@ -152,4 +152,60 @@ body{
 
 .read-more:hover{
     color:white;
+}
+
+.search-bar{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.search-bar label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #d0d0d0;
+}
+
+.search-controls{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+#dateInput{
+    flex: 1;
+    height: 46px;
+    padding: 0 14px;
+    background: #121212;
+    color: #fff;
+    border: 1px solid #2a2a2a;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+#dateInput:focus{
+    border-color: aqua;
+}
+
+#dateInput::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+    cursor: pointer;
+}
+
+#searchBtn{
+    height: 46px;
+    padding: 0 22px;
+    background: aqua;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: .2s;
+}
+
+#searchBtn:hover{
+    background: #6fffff;
 }
