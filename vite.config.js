@@ -1,5 +1,5 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite'
 
-export default defineConfig(({ command }) => ({
-  base: command === "serve" ? "/" : "/my-apod-site/",
-}));
+export default defineConfig({
+  base: '/my-apod-site/',
+})
