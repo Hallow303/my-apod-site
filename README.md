@@ -1,12 +1,16 @@
 # My APOD site
-im gonna fetch all nasa's data mwahaha... OK! esse é meu site de APOD bem temos algumas paginas importantes aqui:
+A website inspired by Instagram, but focused on astronomy.
+This project uses NASA's APOD API to display astronomy pictures, their information, and create a simple space-themed feed.
+
+> im gonna fetch all nasa's data mwahaha...
+
+| Pages     | Description                              |
+| --------- | ---------------------------------------- |
+| Home      | Displays an APOD feed                    |
+| Search    | Search for APODs using specific data     |
+| Favorites | View the APODs you have bookmarked       |
+| Daily     | Displays the Daily APOD                  |
 
 
-| Pages | Descrtion |
-|       |           |
-|       |           |
-|
-|
-|
-|       |           
-|
+> [!NOTE]
+> The APODs you favorite are saved in the browser's LocalStorage.
