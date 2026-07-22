@@ -14,3 +14,5 @@ This project uses NASA's APOD API to display astronomy pictures, their informati
 
 > [!NOTE]
 > The APODs you favorite are saved in the browser's LocalStorage.
+>
+> Favicon credits: [Literature icons created by Magnific](https://www.flaticon.com/free-icons/literature).
